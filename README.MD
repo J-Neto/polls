@@ -6,6 +6,7 @@ Baixar dependencias:
   * @types/node -D
   * fastify
   * prisma -D
+  * @fastify/cookie
 Iniciar o typescript:
   * npx tsc --init
 
