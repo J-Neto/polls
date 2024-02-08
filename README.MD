@@ -7,6 +7,8 @@ Baixar dependencias:
   * fastify
   * prisma -D
   * @fastify/cookie
+  * ioredis
+  * @fastify/websocket
 Iniciar o typescript:
   * npx tsc --init
 
