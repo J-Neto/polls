@@ -1,5 +1,3 @@
-import { print } from 'ioredis'
-
 type Message = { pollOptionId: string, votes: number }
 type Subscriber = (message: Message) => void
 
