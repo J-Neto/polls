@@ -34,7 +34,7 @@ export async function voteOnPoll(app:FastifyInstance) {
           where: {
             id: userPreviousVoteOnPoll.id
           }
-        })
+        })  
       } else if (userPreviousVoteOnPoll) {
         return reply.status(400).send({ message: 'You already voted on this poll.' })
       }
