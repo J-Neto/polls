@@ -1,6 +1,7 @@
 Desenvolvido durante a NLW Expert - Trilha de NodeJS
 
 Inicializar node: npm init -y
+
 Baixar dependencias:
   * typescript -D
   * @types/node -D
